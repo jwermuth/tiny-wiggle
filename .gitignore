@@ -1,4 +1,6 @@
 /tmp
 eclipse
 *~
+.project
+.settings
 
