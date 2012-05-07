@@ -3,4 +3,5 @@ eclipse
 *~
 .project
 .settings
+.classpath
 
