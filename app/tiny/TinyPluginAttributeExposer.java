@@ -45,12 +45,12 @@ public interface TinyPluginAttributeExposer {
 	 *         ("email","<modelobject type="User.class" method="getEmail"/>")]
 	 *         
 	 */
-	public String getName();
+	public String getExposerName();
 
 	/**
 	 * @return a typename e.g. User, Deal or Project. The
 	 */
-	public String getTypeName();
+	public String getExposerTypeName();
 
-	public List<DropDownEntry> getDropDownEntries();
+	public List<DropDownEntry> getExposerDropDownEntries();
 }
